@@ -1,0 +1,113 @@
+컴퓨터: 명령어가 주어지면 그것을 처리하도록 만들어진 기계
+명령어: 0과 1의 조합
+명령어들의 집합:프로그램
+
+>Computer
+-하드웨어와 소프트웨어로 구성
+-하드웨어
+  전자회로와 물리적인 장치로 구성
+  Central Processing Unit: CPU
+  Main memory: RAM
+  Secondary storage devices
+  Input and Output Devices
+-소프트웨어
+  하드웨어를 관리하거나, 컴퓨터에서 실행되는 프로그램
+  Operating Systems
+  Application Software
+
+>하드웨어
+-마더보드
+  중앙처리장치를 주기억장치 등 다른 하드웨어 장치에 연결시키는 회로와
+  확장 슬롯, ROM(Read Only Memory)등으로 구성
+  주기판 또는 모기판이라 부름
+
+>Hardware-main memory
+-RAM(random-access memory)
+ RAM에 저장되는 것
+  프로그램 명령어들
+  프로그램에 사용되는 데이터
+ 휘발성 메모리 사용: 아래 경우에 데이터가 삭제
+  프로그램 종료시
+  컴퓨터 종료시
+ main memory는 cell의 열과 행으로 나타내짐.
+>Hardware-CPU
+-프로그램을 실행하는 하드웨어
+  중앙처리장치, Central Processing Unit
+  제어장치와 산술논리연산장치, 레지스터로 구성
+-마이크로프로세서, 프로세서
+-산술논리연산장치
+  실제로 프로그램이 실행되는 곳
+  산술연산, 논리연산
+-제어장치
+  명령어 해석, CPU의 두뇌
+-레지스터
+  임시적으로 데이터를 저장하기 위한 메모리
+-프로그램 실행 사이클
+  Fetch: get the next program instruction from main memory
+  Decode: interpret the instruction and generate a signal
+  Excute: route the signal to the appropriate component to perform an operation 
+
+>Software
+-Operating System(OS)
+  사용자(또는 사용자 프로그램)와 하드웨어 사이의 인터페이스
+  제한된 시스템 자원(하드웨어)을 제어 및 관리
+   CPU스케쥴링, 메모리 할당
+   하드웨어 장치를 최대한 효율적으로 작동시켜 컴퓨터 처리력을 높이게 함
+  사용자가 컴퓨터와 상호 작용할 수 있는 방편을 제공
+   시스템을 보다 편리하게 사용하고 질 좋은 서비스를 받게 함
+   운영체제가 먼저 제대로 실행되어야만(부팅되어야만)
+   사용자가 사용할 수 있는 상태가 됨
+  Windows, Unix,Mac, Linux, iOS, android
+-Application software
+  사용자 작업에 특화된 환경제공
+  워드프로세서, 웹 브라우저, 스프레드시트, 게임..
+
+>What we know
+-프로그램은 실행시에 메인 메모리에 저장되고, CPU가 한 개의 명령어씩 처리.
+-메모리는 0또는 1을 저장.
+  기계어
+
+
+>절차적 프로그래밍vs객체지향 프로그래밍
+-절차적 프로그래밍
+  순차적 진행
+  조건
+  반복
+-객체지향 프로그래밍
+  클래스(class): 특정 목적을 가진 코드의 단위, 메서드들로 구성
+  메서드(method): 특정 작업을 수행하는 코드 단위
+  명령어들로 구성
+
+>자바개발환경
+-JRE(Java Runtime Environment)
+  자바 실행 환경
+  JVM, runtime libraries
+-JDK(Java Development Kit)
+  자바 언어를 이용하여 프로그램을 개발하기 위한 최소한의 환경
+  JRE+compiler+debugger
+-Java IDE(integrated development environment)
+  프로그램 개발에 필요한 컴파일러(compiler),디버거(debugger),
+  링커(linker), 에디터(editor)등을 통합적으로 제공하는 개발환경
+  Popular Java IDEs
+
+>Welcome to Java!출력
+-Class
+  자바 프로그램은 적어도 하나의 클래스를 포함
+   자바 프로그램의 기본단위
+   필드와 메소드로 구성
+  관례상, 클래스명의 첫 글자는 대문자로
+   당분간 파일명은 클래스명과 일치시킬 것
+   (public 클래스인 경우 파일명과 클래스명은 동일)
+-main method
+  CPU는 main()메소드 내부의 코드를 실행함
+
+
+
+
+
+
+
+
+
+
+ 
