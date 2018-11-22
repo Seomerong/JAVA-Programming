@@ -1,0 +1,39 @@
+//재정의: 부모클래스에거가 사라지고 자식클래스에서 재정의
+
+//필드는 덮어쓰기x 메소드는 덮어쓰기o
+//this.data 내클래스의 data, super.data 부모클래스의 data
+
+/*
+class A{
+	
+	없으면 자동으로 디폴트 생성자 추가 A(){}
+	
+	A(int a){}
+}
+class B extends A{
+	B(){
+		자동적으로 들어감 A();
+	    밑의 경우 디폴트 생성자 A()를 호출할수X  
+  	 
+	}
+}
+*/
+
+//equals getClass toString
+
+/*
+class A(){
+	public void m1(){} 다른 폴더
+	protected void m2(){} 상속까지
+	_____(default)void m3(){} 같은 패키지(폴더)
+	private void m4(){} 자기 클래스안에서만 
+}
+class B extends A{
+	public void m1();
+	public/protected void m2();
+	public/protected/___ void m3();
+}
+
+
+접근은 넓히는 거는 가능하나 좁히는 거는 불가능
+*/
