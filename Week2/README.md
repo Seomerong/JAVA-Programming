@@ -8,5 +8,3 @@
 
 <br /> 
 <br /> 다음 예시를 통해 Scanner class의 사용을 알아보자.
-
-                    import java.util.Scanner;
